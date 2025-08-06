@@ -1,14 +1,24 @@
 # Oracle-APEX-Advanced-Item-Features-Demo
 This Oracle APEX demo application showcases several enhanced input field features using JavaScript and built-in APEX functionalities. The goal is to improve user experience, ensure accurate data entry, and apply interactive validations.
 
-## Features
-🔢 Auto Number Formatting: Formats numbers with thousands separators (e.g., 1234567 → 1,234,567)
+## Features & Steps
+### 1. Password Strength Check
+#### Validation Steps:
 
-💡 Tooltip on Hover: Adds a custom tooltip using JavaScript to help guide the user
+Enforce rules (e.g. minimum length, uppercase, digit, special char)
 
-📅 Date Range Validation: Checks that the "From Date" is earlier than the "To Date"
+Provide real-time feedback (e.g. "Weak", "Strong")
 
-🔒 Password Strength Checker: Validates passwords based on security rules (length, uppercase, digits, etc.)
+JavaScript function hook or dynamic action to validate and mark the item.
+
+### 2. Number Formatting (Thousands Separator)
+#### Implementation Steps:
+
+JavaScript listener on input/change
+
+Automatically format typed numbers into groups of three digits
+
+Remove separators on backend processing if needed
 
 ## 🧪 Technologies
 * Oracle APEX (low-code platform)
