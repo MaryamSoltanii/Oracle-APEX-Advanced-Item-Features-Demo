@@ -5,11 +5,9 @@ This Oracle APEX demo application showcases several enhanced input field feature
 ### 1. Password Strength Check
 #### Validation Steps:
 
-Enforce rules (e.g. minimum length, uppercase, digit, special char)
+  * put then checkPasswordStrength.js in "Function and Global Variable Declaration"
 
-Provide real-time feedback (e.g. "Weak", "Strong")
-
-JavaScript function hook or dynamic action to validate and mark the item.
+  * Create dynamic action on change item use this file "Password Strength Meter"
 
 ### 2. Number Formatting (Thousands Separator)
 #### Implementation Steps:
