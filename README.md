@@ -18,11 +18,11 @@ This Oracle APEX demo application showcases several enhanced input field feature
 * HTML/CSS
 
 ## Use Case
-This project can be used as a reference for developers who want to:
+* This project can be used as a reference for developers who want to:
 
-Enhance standard APEX item behavior
+* Enhance standard APEX item behavior
 
-Improve form validation UX
+* Improve form validation UX
 
 Implement custom logic for user input in APEX applications
 
